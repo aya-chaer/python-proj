@@ -12,9 +12,9 @@ logged_in = False
 
 while attempts > 0:
     user = input("Enter username: ")
-    passcodeaya = input("Enter password: ")
+    pw = input("Enter password: ")
 
-    if user == username and passcode == password:
+    if user == username and pw == password:
         print("Login successful ")
         logged_in = True
         break
